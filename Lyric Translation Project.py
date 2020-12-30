@@ -5,7 +5,7 @@ from translate import Translator
 
 class Lyric_translator:
     def __init__(self, name=input("Enter Your name::")):
-        self.genius = lyricsgenius.Genius("KeGxzMT4aOxBHo4dQjdBaQ5Q6n1TBA07EyRID7AJ-JQJNoj-JGS9DQ0tAYDkElKO")
+        self.genius = lyricsgenius.Genius("Your Genius API key here")
         print(
             f"Welcome {name} This program uses Genius's API.\nPlease Do you mind not hitting their servers by running in series..\nI don't want to loose my developers account... Thank you.")
 
