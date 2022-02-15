@@ -1,1 +1,1 @@
-# Lyric-Translator_
+# SIMPLE LYRIC TRANSLATOR  APP
