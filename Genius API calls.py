@@ -1,10 +1,9 @@
 import lyricsgenius
 
-from translate import Translator
 
 def the_genius():
     api_key = ""
-    genius = lyricsgenius.Genius()
+    genius = lyricsgenius.Genius("vS6dzH6DgHxSZPxORrjNbN9Lr83V8QHXfiEwCdfTTRKUrrqPniWnt9SWx4LmrBiM")
     return genius
 
 def get_songsby():
@@ -32,3 +31,5 @@ def get_lyrics():
         exit()
     splitter = [lyrice[i:i + 499] for i in range(0, len(lyrice), 499)]
     return splitter
+
+
