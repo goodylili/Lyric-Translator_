@@ -4,7 +4,7 @@ from apicalls import *
 def caller():
     intention = input(
         "To get songs by an artist use (F)\nTo get music lyrics use(G)\nUse (H) to get lyrics and translate -->")
-    if intention.lower() != "g" and intention.lower() != "f" and intention.lower() != "h":
+    if intention.lower() not in ['f', 'g', 'h'] :
         exit("Lmao, get serious abeg")
     elif intention.lower() == "g":
         for text in get_lyrics():
