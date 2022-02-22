@@ -1,4 +1,4 @@
-from Translathor import translator
+from translathor import translator
 from apicalls import *
 
 def caller():
