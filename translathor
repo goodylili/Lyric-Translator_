@@ -1,5 +1,5 @@
 from translate import Translator
-from apicalls import get_lyrics
+
 
 def translator(loop_containing_lyrics):
     translated = ""
