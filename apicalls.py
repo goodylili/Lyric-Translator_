@@ -2,8 +2,8 @@ import lyricsgenius
 
 
 def the_genius():
-    api_key = ""
-    genius = lyricsgenius.Genius("vS6dzH6DgHxSZPxORrjNbN9Lr83V8QHXfiEwCdfTTRKUrrqPniWnt9SWx4LmrBiM")
+    api_key = "Your API key here"
+    genius = lyricsgenius.Genius(api_key)
     return genius
 
 def get_songsby():
