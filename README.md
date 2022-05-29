@@ -2,7 +2,7 @@
 [![Programming Language](https://img.shields.io/badge/Language-Python-success?style=flat-square)](https://python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/LordGhostX/animeX-v2/pulls)
 
-This is a simple lyric translator using the Genius API and to Translate Library.
+This is a simple lyric translator using the Genius API and the Google translate SDK.
 
 ## 📸 Screenshots
 
@@ -15,3 +15,4 @@ This is a simple lyric translator using the Genius API and to Translate Library.
 <img src="assets/translate.png" alt="Usage page">
 
 
+Contributions are welcome
