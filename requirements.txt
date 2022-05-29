@@ -11,3 +11,4 @@ requests==2.27.1
 soupsieve==2.3.1
 translate==3.6.1
 urllib3==1.26.8
+googletrans~=3.1.0a0

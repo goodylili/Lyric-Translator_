@@ -9,18 +9,6 @@ def the_genius():
     return genius
 
 
-def get_songs_by():
-    genius_caller = the_genius()
-    name = input("Enter the artistes name::")
-    request = input("Do you also want the features too?, y or n::")
-    print(f"Here's a list of songs by {name}")
-    if request.lower() == "y":
-        artist = genius_caller.search_artist(f"{name}", max_songs=25, sort="title", include_features=True)
-    else:
-        artist = genius_caller.search_artist(f"{name}", max_songs=20, sort="title")
-    return artist
-
-
 def get_lyrics():
     contact_genius = the_genius()
     name = input("Enter the artistes name::")

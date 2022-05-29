@@ -5,6 +5,13 @@
 This is a simple lyric translator using the Genius API and to Translate Library.
 
 ## 📸 Screenshots
+
+### Retrieving Lyrics by Song (_no translation_)
 <img src="assets/getlyrics.png" alt="Song Lyrics">
 
-[//]: # (<img src="ss/2a.png" alt="Usage page">)
+
+
+### Retrieving Lyrics by Song (translated from spanish to english)
+<img src="assets/translate.png" alt="Usage page">
+
+
